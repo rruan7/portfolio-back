@@ -26,7 +26,7 @@ MEDIA_URL = '/media/'
 SECRET_KEY = 'django-insecure-5e4-=_e&sy)1j@30@aytp=juy4o%f!24c&()t6-)bgqh)j82ja'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['renee-new-django.herokuapp.com', '127.0.0.1', 'localhost', 'renee-portfolio.herokuapp.com']
 
