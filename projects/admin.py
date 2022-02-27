@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import Projects
 
 class ProjectsAdmin(admin.ModelAdmin):
-    list_display = ('title', 'description', 'category', 'picture')
+    list_display = ('title', 'description', 'category', 'picture', 'link', 'picture_link')
 
 # Register your models here.
 
