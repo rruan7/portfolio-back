@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-5e4-=_e&sy)1j@30@aytp=juy4o%f!24c&()t6-)bgqh)j82ja
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['renee-new-django.herokuapp.com', '127.0.0.1', 'localhost', 'renee-portfolio.herokuapp.com']
+ALLOWED_HOSTS = ['renee-new-django.herokuapp.com', '127.0.0.1', 'localhost', 'reneeruan.com', 'renee-portfolio.herokuapp.com']
 
 
 # Application definition
@@ -135,7 +135,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000', 'https://renee-portfolio.herokuapp.com'
+     'http://localhost:3000', 'https://renee-portfolio.herokuapp.com', 'reneeruan.com'
 ]
 
 import dj_database_url
