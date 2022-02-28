@@ -138,7 +138,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000', 'https://renee-portfolio.herokuapp.com', 'reneeruan.com'
+     'http://localhost:3000', 'https://renee-portfolio.herokuapp.com', 'https://www.reneeruan.com'
 ]
 
 import dj_database_url
